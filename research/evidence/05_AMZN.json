@@ -1,0 +1,72 @@
+{
+  "evidence_file": "research/evidence/05_AMZN.json",
+  "fundamentals": {
+    "current_ratio": 1.05,
+    "debt_to_equity": 0.7,
+    "ev_to_ebitda": 19.0,
+    "forward_pe": 31.0,
+    "free_cash_flow_margin": 0.08,
+    "gross_margin": 0.48,
+    "operating_margin": 0.1,
+    "pe_ratio": 42.0,
+    "price_to_sales": 3.2,
+    "return_on_equity": 0.18,
+    "revenue_growth": 0.12,
+    "ticker": "AMZN"
+  },
+  "profile": {
+    "currency": "USD",
+    "exchange": null,
+    "industry": null,
+    "name": "Amazon.com, Inc.",
+    "sector": "Consumer Discretionary",
+    "ticker": "AMZN"
+  },
+  "quality_score": 40.93,
+  "rank": 5,
+  "risk_flags": [
+    "none"
+  ],
+  "risk_score": 65.05,
+  "scoring_explanation": {
+    "quality": [
+      "revenue_growth contributed 56.67/100",
+      "gross_margin contributed 56.00/100",
+      "operating_margin contributed 16.67/100",
+      "free_cash_flow_margin contributed 32.00/100",
+      "return_on_equity contributed 43.33/100"
+    ],
+    "risk": [
+      "Debt-to-equity risk contribution 72.00/100",
+      "Current-ratio liquidity contribution 32.14/100",
+      "Drawdown risk contribution 100.00/100"
+    ],
+    "technical": [
+      "SMA200 distance score 38.62/100 from 12.28%",
+      "52-week drawdown score 100.00/100 from -1.19%",
+      "6-month momentum score 81.25/100 from 17.50%",
+      "12-month momentum score 84.23/100 from 29.75%"
+    ],
+    "valuation": [
+      "pe_ratio valuation contributed 9.09/100",
+      "forward_pe valuation contributed 16.00/100",
+      "price_to_sales valuation contributed 90.77/100",
+      "ev_to_ebitda valuation contributed 50.00/100"
+    ]
+  },
+  "signal": "AVOID",
+  "technical_setup_score": 68.54,
+  "technicals": {
+    "current_price": 273.36,
+    "distance_to_sma200": 0.12276897106208376,
+    "drawdown_52w": -0.011856564488143338,
+    "momentum_12m": 0.2975128156445795,
+    "momentum_6m": 0.17498388136686013,
+    "sma100": 253.3752,
+    "sma200": 243.4695,
+    "sma50": 258.3648
+  },
+  "ticker": "AMZN",
+  "total_score": 50.38,
+  "valuation_score": 41.46
+}
