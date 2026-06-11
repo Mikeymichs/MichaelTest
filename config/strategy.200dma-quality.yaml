@@ -1,0 +1,12 @@
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - GOOGL
+  - AMZN
+start: "2024-01-01"
+end: "2025-06-30"
+provider: mock
+cache_path: research/cache.duckdb
+evidence_dir: research/evidence
+report_path: research/reports/200dma-quality.md

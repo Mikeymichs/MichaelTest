@@ -1,0 +1,72 @@
+{
+  "evidence_file": "research/evidence/03_NVDA.json",
+  "fundamentals": {
+    "current_ratio": 3.5,
+    "debt_to_equity": 0.2,
+    "ev_to_ebitda": 38.0,
+    "forward_pe": 32.0,
+    "free_cash_flow_margin": 0.39,
+    "gross_margin": 0.74,
+    "operating_margin": 0.55,
+    "pe_ratio": 48.0,
+    "price_to_sales": 25.0,
+    "return_on_equity": 0.95,
+    "revenue_growth": 1.2,
+    "ticker": "NVDA"
+  },
+  "profile": {
+    "currency": "USD",
+    "exchange": null,
+    "industry": null,
+    "name": "NVIDIA Corporation",
+    "sector": "Technology",
+    "ticker": "NVDA"
+  },
+  "quality_score": 100.0,
+  "rank": 3,
+  "risk_flags": [
+    "none"
+  ],
+  "risk_score": 96.8,
+  "scoring_explanation": {
+    "quality": [
+      "revenue_growth contributed 100.00/100",
+      "gross_margin contributed 100.00/100",
+      "operating_margin contributed 100.00/100",
+      "free_cash_flow_margin contributed 100.00/100",
+      "return_on_equity contributed 100.00/100"
+    ],
+    "risk": [
+      "Debt-to-equity risk contribution 92.00/100",
+      "Current-ratio liquidity contribution 100.00/100",
+      "Drawdown risk contribution 100.00/100"
+    ],
+    "technical": [
+      "SMA200 distance score 26.00/100 from 14.80%",
+      "52-week drawdown score 100.00/100 from -1.19%",
+      "6-month momentum score 89.90/100 from 20.96%",
+      "12-month momentum score 97.82/100 from 38.58%"
+    ],
+    "valuation": [
+      "pe_ratio valuation contributed 0.00/100",
+      "forward_pe valuation contributed 12.00/100",
+      "price_to_sales valuation contributed 0.00/100",
+      "ev_to_ebitda valuation contributed 0.00/100"
+    ]
+  },
+  "signal": "WATCHLIST",
+  "technical_setup_score": 67.94,
+  "technicals": {
+    "current_price": 199.92,
+    "distance_to_sma200": 0.1480055470856266,
+    "drawdown_52w": -0.011862396204033242,
+    "momentum_12m": 0.3858311382226535,
+    "momentum_6m": 0.2095837366892545,
+    "sma100": 183.34740000000002,
+    "sma200": 174.1455,
+    "sma50": 187.97259999999997
+  },
+  "ticker": "NVDA",
+  "total_score": 67.41,
+  "valuation_score": 3.0
+}

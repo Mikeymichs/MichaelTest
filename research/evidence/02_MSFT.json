@@ -1,0 +1,72 @@
+{
+  "evidence_file": "research/evidence/02_MSFT.json",
+  "fundamentals": {
+    "current_ratio": 1.25,
+    "debt_to_equity": 0.35,
+    "ev_to_ebitda": 24.0,
+    "forward_pe": 29.0,
+    "free_cash_flow_margin": 0.3,
+    "gross_margin": 0.69,
+    "operating_margin": 0.44,
+    "pe_ratio": 34.0,
+    "price_to_sales": 12.0,
+    "return_on_equity": 0.37,
+    "revenue_growth": 0.13,
+    "ticker": "MSFT"
+  },
+  "profile": {
+    "currency": "USD",
+    "exchange": null,
+    "industry": null,
+    "name": "Microsoft Corporation",
+    "sector": "Technology",
+    "ticker": "MSFT"
+  },
+  "quality_score": 91.6,
+  "rank": 2,
+  "risk_flags": [
+    "none"
+  ],
+  "risk_score": 75.65,
+  "scoring_explanation": {
+    "quality": [
+      "revenue_growth contributed 60.00/100",
+      "gross_margin contributed 98.00/100",
+      "operating_margin contributed 100.00/100",
+      "free_cash_flow_margin contributed 100.00/100",
+      "return_on_equity contributed 100.00/100"
+    ],
+    "risk": [
+      "Debt-to-equity risk contribution 86.00/100",
+      "Current-ratio liquidity contribution 46.43/100",
+      "Drawdown risk contribution 100.00/100"
+    ],
+    "technical": [
+      "SMA200 distance score 26.01/100 from 14.80%",
+      "52-week drawdown score 100.00/100 from -1.19%",
+      "6-month momentum score 89.90/100 from 20.96%",
+      "12-month momentum score 97.81/100 from 38.58%"
+    ],
+    "valuation": [
+      "pe_ratio valuation contributed 33.33/100",
+      "forward_pe valuation contributed 24.00/100",
+      "price_to_sales valuation contributed 23.08/100",
+      "ev_to_ebitda valuation contributed 27.27/100"
+    ]
+  },
+  "signal": "WATCHLIST",
+  "technical_setup_score": 67.95,
+  "technicals": {
+    "current_price": 708.03,
+    "distance_to_sma200": 0.14797416681157613,
+    "drawdown_52w": -0.0118627273107895,
+    "momentum_12m": 0.38579425350348384,
+    "momentum_6m": 0.2095840095669257,
+    "sma100": 649.3562000000001,
+    "sma200": 616.7647499999999,
+    "sma50": 665.7366000000001
+  },
+  "ticker": "MSFT",
+  "total_score": 67.92,
+  "valuation_score": 26.92
+}

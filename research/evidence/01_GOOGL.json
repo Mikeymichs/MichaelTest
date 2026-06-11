@@ -1,0 +1,72 @@
+{
+  "evidence_file": "research/evidence/01_GOOGL.json",
+  "fundamentals": {
+    "current_ratio": 2.1,
+    "debt_to_equity": 0.1,
+    "ev_to_ebitda": 17.0,
+    "forward_pe": 21.0,
+    "free_cash_flow_margin": 0.22,
+    "gross_margin": 0.57,
+    "operating_margin": 0.29,
+    "pe_ratio": 25.0,
+    "price_to_sales": 6.0,
+    "return_on_equity": 0.29,
+    "revenue_growth": 0.11,
+    "ticker": "GOOGL"
+  },
+  "profile": {
+    "currency": "USD",
+    "exchange": null,
+    "industry": null,
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "ticker": "GOOGL"
+  },
+  "quality_score": 75.07,
+  "rank": 1,
+  "risk_flags": [
+    "none"
+  ],
+  "risk_score": 98.4,
+  "scoring_explanation": {
+    "quality": [
+      "revenue_growth contributed 53.33/100",
+      "gross_margin contributed 74.00/100",
+      "operating_margin contributed 80.00/100",
+      "free_cash_flow_margin contributed 88.00/100",
+      "return_on_equity contributed 80.00/100"
+    ],
+    "risk": [
+      "Debt-to-equity risk contribution 96.00/100",
+      "Current-ratio liquidity contribution 100.00/100",
+      "Drawdown risk contribution 100.00/100"
+    ],
+    "technical": [
+      "SMA200 distance score 45.95/100 from 10.81%",
+      "52-week drawdown score 100.00/100 from -1.19%",
+      "6-month momentum score 76.28/100 from 15.51%",
+      "12-month momentum score 76.85/100 from 24.95%"
+    ],
+    "valuation": [
+      "pe_ratio valuation contributed 60.61/100",
+      "forward_pe valuation contributed 56.00/100",
+      "price_to_sales valuation contributed 69.23/100",
+      "ev_to_ebitda valuation contributed 59.09/100"
+    ]
+  },
+  "signal": "BUY_RESEARCH",
+  "technical_setup_score": 69.01,
+  "technicals": {
+    "current_price": 242.1,
+    "distance_to_sma200": 0.10809663463133809,
+    "drawdown_52w": -0.011877066242194183,
+    "momentum_12m": 0.24954838709677415,
+    "momentum_6m": 0.15511236223102243,
+    "sma100": 225.8279,
+    "sma200": 218.48275,
+    "sma50": 229.535
+  },
+  "ticker": "GOOGL",
+  "total_score": 72.43,
+  "valuation_score": 61.23
+}
